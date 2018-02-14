@@ -42,7 +42,14 @@ public class Localizacion implements LocationListener {
         loc.getLatitude();
         loc.getLongitude();
 
-        String Text = "Mi ubicacion actual es: " + "\n Lat = "+ loc.getLatitude() + "\n Long = " + loc.getLongitude();
+        String Text = "Mi ubicacion actual es:      " +
+                "" +
+                "" +
+                "" +
+                "" +
+                "" +
+                "" +
+                " " + "\n Lat = "+ loc.getLatitude() + "\n Long = " + loc.getLongitude();
         mensaje1.setText(Text);
 
         //Llmanada al metodo para obtener la direccion
